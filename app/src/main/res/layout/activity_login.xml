@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/button_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:layout_marginBottom="@dimen/button_margin_bottom" />
+<!--
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:text="Logout from Google"
+        android:visibility="gone"
+        android:background="@color/signout_button_color"/>
+
+    <Button
+        android:id="@+id/btn_revoke_access"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revoke Access"
+        android:visibility="gone"
+        android:background="@color/signout_button_color"/>-->
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+

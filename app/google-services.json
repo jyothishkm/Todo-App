@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078940203541",
+    "project_id": "gplussignin-b2360"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078940203541:android:448425b5edf52c97",
+        "android_client_info": {
+          "package_name": "com.example.next.gplussignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078940203541-0pohbsv2fgfn4r8kfle5g7e64dfm5gm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaTZ2izjEjjjlKGja25S8gjAt5wzaKOTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

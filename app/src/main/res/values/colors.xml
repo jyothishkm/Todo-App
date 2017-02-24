@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--button signout color-->
+    <color name="signout_button_color">#81d2ea</color>
+
+    <!--side nav bar color-->
+    <color name="start_color">#4CAF50</color>
+    <color name="center_color">#2E7D32</color>
+    <color name="end_color">#81C784</color>
+
+    <!--tool bar color-->
+    <color name="toolbar_color">#cabfbf</color>
+
+    <!--button popup-->
+    <color name="btn_popup">#8dcfef</color>
+    <color name="txt_popup">#37afea</color>
+
+    <!--view color-->
+    <color name="view_popup_color">#f24444</color>
+</resources>

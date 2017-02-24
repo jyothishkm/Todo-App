@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_popup_height"
+        android:layout_margin="@dimen/view_popup_margin"
+        android:background="@color/view_popup_color"
+        />-->
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EnterTitle"
+        android:textColor="#ec4f4f"
+        android:layout_gravity="center"edit_popup_titile
+        android:textSize="@dimen/item_list_margin_size"/>-->
+    <EditText
+        android:id="@+id/edit_popup_titile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_popup_title"
+
+        />
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_popup_titile"
+        android:text="Description"
+        android:textColor="@color/txt_popup"
+        android:textSize="@dimen/item_list_margin_size"
+        android:layout_marginBottom="@dimen/view_popup_margin"/>
+    <EditText
+        android:layout_below="@id/txt_title"
+        android:id="@+id/edit_popup_des"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_popup_des"
+        android:layout_marginBottom="@dimen/view_popup_margin"
+        />
+    <RelativeLayout
+        android:layout_below="@id/edit_popup_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <Button
+        android:id="@+id/btn_popup_des_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_name_popup_done"
+        android:background="@color/btn_popup"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/view_popup_margin"
+
+        />
+        <!--<Button
+            android:id="@+id/btn_popup_des_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_name_popup_cancel"
+            android:background="#8dcfef"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/item_list_margin_size"/>-->
+    </RelativeLayout>
+ </RelativeLayout>

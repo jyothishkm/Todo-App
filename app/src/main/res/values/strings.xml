@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Todo List</string>
+
+    <!--nav menu names-->
+    <string name="nav_home">Home</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_revoke_access">Revoke Access</string>
+
+    <!--navigation drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--url-->
+    <string name="string_url">http://freejsonapis-showin.rhcloud.com/getNote?userid=ram@gmail.com</string>
+    <string name="post_url">http://freejsonapis-showin.rhcloud.com/storeData</string>
+
+    <!--button popup-->
+    <string name="btn_name_popup_done">Done</string>
+    <string name="btn_name_popup_cancel">Cancel</string>
+</resources>
